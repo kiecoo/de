@@ -1,4 +1,4 @@
-module.exports = makeGitterURL2
+module.exports = makeLinkURL2
 
 function makeLinkURL2 (username) {
   var twitter           = `https://twitter.com/${username}`
