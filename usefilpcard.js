@@ -16,6 +16,8 @@ function profile () {
   
   var gitter           =  `https://gitter.im/${username}/~embed`
   }
+    
+     makeLinkURL (username)
   
 // HTML
   var cardContainer = bel`
