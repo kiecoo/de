@@ -1,5 +1,5 @@
 // index.js
-
+var makeLinkURL1 = require('./make-url-of-twitter-github-codepen-gitter.js')
 module.exports = profile   
     
 function profile () {
@@ -9,15 +9,9 @@ function profile () {
   var imageUrl          = 'https://nomadlist.com/assets/img/cities/phuket-thailand-500px.jpg'
   var city              = 'Berlin'
   
-  function makeLinkURL (username) {
-  var twitter           = `https://twitter.com/${username}`
-  var github            = `https://github.com/${username}`
-  var codepen           = `https://codepen.io/${username}`
   
-  var gitter           =  `https://gitter.im/${username}/~embed`
-  }
     
-     makeLinkURL (username)
+     makeLinkURL1 (username)
   
 // HTML
   var cardContainer = bel`
