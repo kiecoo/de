@@ -8,6 +8,9 @@ function profile () {
   var cardText          = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru '
   var imageUrl          = 'https://nomadlist.com/assets/img/cities/phuket-thailand-500px.jpg'
   var city              = 'Berlin'
+  var twitter           = `https://twitter.com/${username}`
+  var github            = `https://github.com/${username}`
+  var codepen           = `https://codepen.io/${username}`
   
   
     
